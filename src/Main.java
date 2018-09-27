@@ -7,10 +7,10 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Įveskite masyvo dydį: ");
         int masyvoDydis = keyboard.nextInt();
-        int [] skaiciai = new int[masyvoDydis];
+        int [] skaiciai = new int[5];
 
         for (int i = 0; i < skaiciai.length;i++){
-            System.out.println("Įveskite skaičių: ");
+            System.out.println("Įveskite " + i + "-ąjį narį iš "+ skaiciai.length);
             skaiciai [i] = keyboard.nextInt();
         }
             /*System.out.println("Ar norite tęsti skaičių įvedimą?");
