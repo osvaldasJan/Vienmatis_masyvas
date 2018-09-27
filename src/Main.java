@@ -17,6 +17,7 @@ public class Main {
             continueLoop = keyboard.next();
             if (continueLoop.equalsIgnoreCase("taip")){
                 continueLoop = "taip";
+
             } else
                 break;
             */
